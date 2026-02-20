@@ -331,6 +331,52 @@ After completing all 7 days, you're ready for a comprehensive project:
 
 ---
 
+## All Concepts (consolidated) & Resources 📚
+A single-shot reference of every concept covered in the 1-week plan with concise resources to learn more.
+
+### Language & CLI
+- **Python core (syntax, data types, control flow, functions)** — https://docs.python.org/3/tutorial/
+- **Virtual environments (venv)** — https://docs.python.org/3/library/venv.html
+- **argparse (CLI tools & subcommands)** — https://docs.python.org/3/library/argparse.html
+
+### File, OS & Processes
+- **File I/O / pathlib / os** — https://docs.python.org/3/library/pathlib.html
+- **subprocess / process management / signals** — https://docs.python.org/3/library/subprocess.html
+- **Logging & exception handling** — https://docs.python.org/3/howto/logging.html
+- **Multiprocessing & threading** — https://docs.python.org/3/library/multiprocessing.html
+
+### Networking & APIs
+- **HTTP / requests** — https://docs.python-requests.org/
+- **JSON processing** — https://docs.python.org/3/library/json.html
+- **Retries & backoff strategies** — Tenacity: https://tenacity.readthedocs.io/
+
+### Configuration & Data Formats
+- **INI (configparser)** — https://docs.python.org/3/library/configparser.html
+- **YAML (PyYAML)** — https://pyyaml.org/wiki/PyYAMLDocumentation
+- **TOML** — https://toml.io/en/
+- **Environment variables / python-dotenv** — https://pypi.org/project/python-dotenv/
+- **Configuration validation (schema)** — Cerberus / jsonschema: https://json-schema.org/
+
+### Containers & Orchestration
+- **Docker (images/containers)** — https://docs.docker.com/get-started/
+- **docker-py (Python SDK)** — https://docker-py.readthedocs.io/
+- **Kubernetes Python client** — https://github.com/kubernetes-client/python
+
+### Automation, Scheduling & Monitoring
+- **Scheduling (APScheduler / schedule / cron)** — https://apscheduler.readthedocs.io/ and https://pypi.org/project/schedule/
+- **Health checks & metrics (Prometheus client)** — https://github.com/prometheus/client_python
+- **Alerting / webhooks** — (depends on provider) — example: Slack/Teams/webhook docs
+
+### DevOps Practices & Tooling
+- **CI / GitHub Actions** — https://docs.github.com/actions
+- **Testing (pytest)** — https://docs.pytest.org/
+- **Secrets management (Vault / cloud secrets)** — https://www.vaultproject.io/
+- **Infrastructure-as-Code concepts** — Terraform / Pulumi docs (examples)
+
+> Tip: tell me which concept you want to expand and I will add a short tutorial, example code, or unit tests for it.
+
+---
+
 ## Learning Tips from a Senior DevOps Engineer
 
 1. **Write code for operations, not just features**
